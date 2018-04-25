@@ -1,0 +1,12 @@
+Supply:
++5V (VU)
+GND (GND)
+
+Pushbutton:
+Common (p14)
+NC (GND)
+NO (+5V)
+
+RGB Led:
+Red (p25), with 120R resistor
+CC (GND)

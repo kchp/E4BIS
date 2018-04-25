@@ -1,0 +1,16 @@
+Supply:
++5V (VU)
+GND (GND)
+
+Pushbutton:
+Common (p14)
+NC (GND)
+NO (+5V)
+
+Led:
+Anode (p25), with 120R resistor
+Cathode (GND)
+
+Buzzer:
+p1 (p25)
+p2 (GND)

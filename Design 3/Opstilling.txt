@@ -1,0 +1,18 @@
+Supply:
++5V (VU)
+GND (GND)
+
+Pushbutton:
+Common (p14)
+NC (GND)
+NO (+5V)
+
+RGB Led:
+Red (p26), with 120R resistor
+Green (p27), with 120R resistor
+Blue (p28), with 120R resistor
+CC (GND)
+
+Buzzer:
+p1 (p25)
+p2 (GND)
