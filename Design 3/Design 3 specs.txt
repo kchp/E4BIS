@@ -5,5 +5,5 @@ Du skal finde en form for diffusor og sætte på din RGB diode, så det giver en
 
 1. OK - Led blinkende grøn, ingen lyd
 2. Busy - Led blinker hurtigt blå, ingen lyd
-3. Warning - Led blinker langsomt gult, klik fra buzzer
+3. Warning - Led blinker gult, bip fra buzzer
 4. Error - Led konstant rød, Hi/Lo tone fra buzzer
