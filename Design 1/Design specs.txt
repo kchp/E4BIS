@@ -1,0 +1,7 @@
+Lavet på LPC4088
+
+1. OK - diode off, alt ok
+2. Busy - diode blinker hurtigt
+3. Warning - diode blinker langsomt
+4. Error - diode konstant on
+
