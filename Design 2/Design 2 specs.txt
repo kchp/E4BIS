@@ -1,7 +1,16 @@
-Hvordan kan lyd supporterer design 1?
-Brug en buzzer eller lign. for at forbedre design 1 (LED skal stadig gøre som i design 1)
-
-1. OK - diode off, ingen lyd
-2. Busy - diode blinker hurtigt, ingen lyd
-3. Warning - diode blinker langsomt, bip fra buzzer
-4. Error - diode konstant on, konstant tone fra buzzer
+===============================================================================
+= Project     = E4BIS Design 2
+= Author      = Kim Petersen
+= Date        = 25/04 - 2018
+= Version     = 1.0
+= Copyright   = Open source
+===============================================================================
+= Description = Hvordan kan lyd supporterer Design 1?
+=             = Brug en buzzer eller lign. for at forbedre Design 1
+=             = (LED skal stadig gøre som i Design 1)
+=             = 
+=             = 1. OK - diode off, ingen lyd
+=             = 2. Busy - diode blinker hurtigt, ingen lyd
+=             = 3. Warning - diode blinker langsomt, bip fra buzzer
+=             = 4. Error - diode konstant on, konstant tone fra buzzer
+===============================================================================

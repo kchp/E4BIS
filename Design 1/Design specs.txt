@@ -1,7 +1,14 @@
-Lavet på LPC4088
-
-1. OK - diode off, alt ok
-2. Busy - diode blinker hurtigt
-3. Warning - diode blinker langsomt
-4. Error - diode konstant on
-
+===============================================================================
+= Project     = E4BIS Design 1
+= Author      = Kim Petersen
+= Date        = 
+= Version     = 1.0
+= Copyright   = Open source
+===============================================================================
+= Description = Lavet på LPC4088
+=             = 
+=             = 1. OK - diode off, alt ok
+=             = 2. Busy - diode blinker hurtigt
+=             = 3. Warning - diode blinker langsomt
+=             = 4. Error - diode konstant on
+===============================================================================
