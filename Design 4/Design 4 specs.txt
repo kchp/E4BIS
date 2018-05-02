@@ -1,0 +1,20 @@
+===============================================================================
+= Project     = E4BIS Design 4
+= Author      = Kim Petersen
+= Date        = 01/5 - 2018
+= Version     = 1.0
+= Copyright   = Open source
+===============================================================================
+= Description = Hvordan kan haptic feedback forbedre UX af Design 3?
+=             = Tilføj en vibrator etc til at give taktil feedback for design 3
+=             = Det er vigtigt for designet at du forkuserer på at give en
+=             = tydelig lys, lyd og haptid indikation af de fire forskellige
+=             = tilstande.
+=             = 
+=             = Der gives 2 hurtige vibrationer når der trykkes på knappen
+=             = 1. OK: Led blinkende grøn, ingen lyd, ingen vibration
+=             = 2. Busy: Led blinker hurtigt blå, ingen lyd,
+=             =          hurtig mild vibration
+=             = 3. Warning: Led blinker gult, bip, vibration i takt med blink
+=             = 4. Error: Led konstant rød, Hi/Lo tone, konstant vibration
+===============================================================================
