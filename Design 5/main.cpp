@@ -2,25 +2,23 @@
 ===============================================================================
 = Project     = E4BIS Design 5
 = Author      = Kim Petersen
-= Date        = 02/05 - 2018
+= Date        = 05/05 - 2018
 = Version     = 1.0
 = Copyright   = Open source
 ===============================================================================
 = Description = Design 5
-=             = De videoer vi har set handler om bevægelse på en skærm.
-=             = Kan vi bruge disse læringer på en embedded platform?
-=             = Flyt nogle objekter (brug f.eks. en servo tilsluttet din mbed).
-=             = Hvordan skal denne bevægelse designes for at give en god UX?
 =             = 
-=             = Retninglinjer:
-=             = Husk vi kører realtidssystemer, så brugeren skal altid have
-=             = feedback på sine handlinger. Pas på ikke at komme til at hænge
-=             = i en tilstand, hvor du ikke kan tage imod et knaptryk.
-=             = Hvis du ikke udfører brugerens ønsker her og nu, skal du finde
-=             = måde at fortælle brugeren det på, med en god UX. Det er vigtigt
-=             = at dine knaptryk er OK, idet det er en del af UX, så brug en
-=             = debounce på din knap og evt. en state-machine til at holde styr
-=             = på dine tilstande.
+=             = Til dette design har jeg valgt at bruge robotten fra PRO1
+=             = og vil styrer servoen der drejer ultralydssensoren.
+=             = 
+=             = Når boardet startes, skal det centrerer sensoren.
+=             = Knappen monteret på pin 14, bruges til at skifte mellem de 5
+=             = prædefinerede positioner:
+=             = 1. Centreret
+=             = 2. 90 grader til venstre
+=             = 3. 90 grader til højre
+=             = 4. 45 grader til venstre
+=             = 5. 45 grader til højre
 ===============================================================================
 */
 #include "mbed.h"
