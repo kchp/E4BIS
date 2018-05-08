@@ -23,3 +23,8 @@ C (+5V)
 B (p29)
 E (to GND through 10k resistor and to p1 on vibrator)
 p2 vibrator (GND)
+
+Servo:
+brown (GND)
+red (+5V)
+orange (p30)

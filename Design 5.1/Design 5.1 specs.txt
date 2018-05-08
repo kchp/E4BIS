@@ -1,0 +1,35 @@
+===============================================================================
+= Project     = E4BIS Design 5.1
+= Author      = Kim Petersen
+= Date        = 05/05 - 2018
+= Version     = 1.0
+= Copyright   = Open source
+===============================================================================
+= Description = Design 5.1
+=             = Vi skal forbedre Design 5 til design 5.1
+=             = Tilføj lys, lyd og haptid for at forbedre UX.
+=             = 
+=             = 
+=             = Til dette design har jeg valgt at bruge robotten fra PRO1
+=             = og vil styrer servoen der drejer ultralydssensoren.
+=             = 
+=             = Når der trykkes på knap gives 2 vibrationer
+=             = 
+=             = 1. Ready
+=             =    Når boardet startes, skal det centrerer sensoren.
+=             =    Led blink grøn, servo centreret
+=             =    ingen lyd, ingen vibration
+=             = 2. Scanning
+=             =    Servo drejer roligt mellem 45 grader i begge retninger.
+=             =    Led hurtig blink blå, Servo arbejde som beskrevet
+=             =    ingen lyd, Vibration i takt med blink
+=             = 3. Measuring
+=             =    Servo drejer til 4 fast positioner og venter lidt, inden
+=             =    den returnerer til center.
+=             =    Led blinker hurtigt gult, Servo arbejde som beskrevet
+=             =    Bip i takt med blink, Vibration
+=             = 4. Error
+=             =    Der er opstået en fejl, der kræver handling fra bruger.
+=             =    Led konstant rød, Servo drejer hurtigt fra side til side
+=             =    Lyd hi/lo sirene, Vibration
+===============================================================================
