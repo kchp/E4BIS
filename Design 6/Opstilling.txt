@@ -1,0 +1,36 @@
+Supply:
++5V (VU)
+GND (GND)
+
+Pushbutton:
+Common (p14)
+NC (GND)
+NO (+5V)
+
+RGB Led:
+Red (p26), with 120R resistor
+Green (p27), with 120R resistor
+Blue (p28), with 120R resistor
+CC (GND)
+
+Buzzer:
+p1 (p25)
+p2 (GND)
+
+Vibrator:
+BC337 connections
+C (+5V)
+B (p29)
+E (to GND through 10k resistor and to p1 on vibrator)
+p2 vibrator (GND)
+
+Servo:
+brown (GND)
+red (+5V)
+orange (p30)
+
+Bending sensor:
+Spændingsdeler kobling med 10k fra 3.3V-GND
+VOUT (10k)
+10k/Bend (p15)
+Bend (GND)

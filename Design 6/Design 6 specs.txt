@@ -1,0 +1,26 @@
+===============================================================================
+= Project     = E4BIS Design 6
+= Author      = Kim Petersen
+= Date        = 08/05 - 2018
+= Version     = 1.0
+= Copyright   = Open source
+===============================================================================
+= Description = Design 6
+=             = Flyt dine objekter ved at bruge en bending sensor. Forsøg at
+=             = gøre bevægelse så nøjagtig som muligt.
+=             = Tilføj lys og lyd for at forbedre UX. Tænk på en
+=             = brugssituation, og overvej hvorfor brugeren skal bruge dit
+=             = produkt.
+=             = 
+=             = Servo motor styres ved at bruge bending sensoren.
+=             = 
+=             = Tilstanden:
+=             = Sensoren bøjes lidt,  Servoen bevæges mod venstre,
+=             =                       hurtigt blå blink,
+=             = 					  konstant rød ved 90 graders drejning.
+=             = Sensoren bøjes meget, Servoen bevæges mod højre,
+=             =                       hurtigt blå blink,
+=             = 					  konstant rød ved 90 graders drejning.
+=             = Ingen bøjning,		  Servoen centreres,
+=             = 					  Grønt blink
+===============================================================================
